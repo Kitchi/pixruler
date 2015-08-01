@@ -49,5 +49,5 @@ class drawLine:
       self.end = (event.x, event.y)
 
       dist, dx, dy = self.distance(self.start, self.end)
-      print "Distance: % 7.3f, delta X: % 4d, delta Y: % 4d" % ( dist, dx, dy)
+      print "Distance: % 7.3f, delta X: % 4d, delta Y: % 4d" % (dist, dx, dy)
 
